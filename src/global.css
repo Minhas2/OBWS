@@ -1,0 +1,765 @@
+:root{
+    --primary-color:#EF6C38;
+}
+.join{
+    background-color: transparent !important;
+    border: none;
+    border-radius: 60px;
+    width: 150px;
+}
+@font-face {
+    font-family: 'headingfont';
+    src: url('../src/Cambria-Font-For-MAC.ttf') format('truetype');
+  }
+  .headingfont{
+    font-family: 'headingfont';
+  }
+  @font-face {
+    font-family: 'paragraphfont';
+    src: url('../src/QanelasRegular.otf') format('truetype');
+    
+    font-style: normal;
+  }
+  .paragraphfont{
+    /* font-family: 'paragraphfont'; */
+    font-family: '"Poppins", sans-serif;';
+  }
+  .Poppins{
+    font-family: '"Poppins", sans-serif;';
+  }
+  @font-face {
+    font-family: 'stylishfont';
+    src: url('../src/Miracle.otf') format('truetype');
+  }
+  .stylishfont{
+    font-family: 'stylishfont';
+  }
+  @font-face {
+    font-family: 'platformtext';
+    src: url('../src/Aire-Bold-Std.ttf') format('truetype');
+    
+    font-style: normal;
+  }
+  .platformtext{
+    font-family: 'platformtext';
+  }
+  .backgroundheaading{
+    display:inline-block;
+    background-color: #F8CAAF;
+    height: 20px !important;
+    line-height:6px;
+  }
+  .backgroundheaadingorange{
+    display:inline-block;
+    background-color: var(--primary-color);
+    height: 20px !important;
+    line-height:6px;
+  }
+  .mainheading{
+    font-size: 60px;
+  }
+  .topbar{
+    font-size: 20px !important;
+  }
+ 
+.topbar span::after{
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid black;
+    width: 8rem;
+    margin: 3px 10px;
+}
+  .hero{
+    /* background-image: url(./assets/herobg.png); */
+    background-size: cover;
+    background-color: rgb(248, 247, 243);
+  }
+
+  .heavy{
+    font-weight: 600;
+  }
+ 
+.hero h1{
+    color: var(--primary-color);
+    font-size: 76px;
+    font-weight: 100 !important;
+}
+ p{
+    font-size: 26px;
+    line-height: 1.6;
+}
+.hero span{
+    color: #000000;
+    
+   
+}
+.membership-hero{
+    font-size: 24px;
+}
+
+.hero button{
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 15px 30px;
+    letter-spacing: 4.2px;
+}
+.hero button:hover{
+    background-color: black;
+    color: var(--primary-color) !important;
+   
+}
+.hero button:hover span{
+    color: var(--primary-color) !important;
+   
+}
+.orangebig img{
+    border-radius: 80px;
+}
+.orangetable{
+    background-color: #F1803F;
+}
+.tabletext{
+    font-size: 20px;
+}
+.heromain{
+    border-radius: 250px !important;
+    margin-bottom: -120px;
+}
+.orangetable h2{
+    font-size: 24px;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+.orangeline{
+    background-color: rgba(244, 162, 117,0.4);
+    
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    right: 20%;
+    z-index: 1;
+}
+.otherorangeline{
+    background-color: rgba(244, 162, 117,0.4);
+    
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    right: 5%;
+    z-index: 2;
+}
+.ceo{
+    background-color: #FEFAF8;
+}
+
+.ceo small{
+    font-size: 20px;
+}
+.introducing{
+    border-radius: 60px;
+    border-color: #000000;
+}
+.hundred small{
+    font-size: 20px;
+}
+.orangelinebg{
+    background-image: url(./assets/orangelinebg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.seen {
+    text-align: center;
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  
+  .seen:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #ccc;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    
+  }
+  
+  .seen:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #ccc;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+.sidebysidebg{
+    background-image: url(./assets/sidebysidebg.png);
+  
+    background-size: 100% 100%;
+}
+.pricing:hover{
+    border-color: var(--primary-color);
+}
+.ambiousbg{
+    background-image: url(./assets/ambiousbg.png);
+  
+    background-size: 100% 100%;
+}
+
+.scriptside h2{
+    font-size: 60px;
+    line-height: 1.0;
+}
+
+.scriptssideimage img{
+    border: 2px solid black;
+    border-radius: 60px;
+}
+.scriptside button{
+    background-color: black;
+    color: var(--primary-color);
+    border:none;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 15px 30px;
+    letter-spacing: 4.2px;
+}
+.scriptside button:hover{
+    opacity: 0.8;
+    background-color: #000000 !important;
+    color: var(--primary-color) !important;
+   
+}
+.recaplower h1{
+    font-size: 60px;
+}
+
+.recaplower button{
+    background-color: black;
+    color: var(--primary-color);
+    border:none;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 15px 30px;
+    letter-spacing: 4.2px;
+}
+.recaplower button:hover{
+    background-color: white;
+    color: var(--primary-color) !important;
+   
+}
+.scriptside .white-area{
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+}
+.scriptside .white-area p{
+   
+    font-weight: 200;
+    font-size: 20px;
+}
+.accordion-button::after {
+    background-image: url("../src/assets/arrow.svg") !important;
+
+  }
+  .accordion-button:not(.collapsed)::after {
+    
+    background-image: url("../src/assets/arrowdown.svg") !important;
+    --bs-accordion-btn-icon-transform: rotate(0deg) !important;
+    box-shadow: none;
+    
+  }
+  .accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .accordion-button{
+    padding-left:0 !important ;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000 !important;
+    outline: 0;
+  }
+  .accordion-header .collapsed{
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+  .faq-heading{
+    width: 70%;
+    margin: auto;
+  }
+  .faq-heading h1{
+    font-size: 60px;
+  }
+  .faqouter{
+    background-color: #FCE8DF;
+  }
+  .orangetext h1{
+    font-size: 80px;
+    color: white;
+  }
+  
+  .orangepicture img{
+        border-radius: 250px;
+        margin-top: -50px;
+  }
+  .accordion-body{
+    font-size: 22px;
+  }
+
+
+.orangetext button{
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 15px 30px;
+    letter-spacing: 4.2px;
+}
+.orangetext button:hover{
+    background-color: black;
+    color: var(--primary-color) !important;
+   
+}
+.hundred{
+    background-image: url(./assets/hundredbg.png);
+    background-size: cover;
+}
+.pricing p{
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 100;
+}
+.pricing h1{
+    font-size: 60px;
+    font-weight: 200;
+}
+.pricing h3{
+    font-size: 26px;
+    font-weight: 700;
+}
+.pricing h3 span{
+    color: var(--primary-color);
+}
+.connection h1{
+    font-size: 44px;
+    font-weight: 900;
+}
+.connection h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.pricing ul li{
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 200;
+    text-indent: 4px;
+    
+}
+.pricing ul li::marker{
+    content: url(./assets/litick.png);
+    
+}
+.social{
+    font-size: 3rem;
+}
+
+.quote h1{
+    font-size: 54px;
+}
+footer{
+    background-color: #FCE8DF;
+}
+.footerlinks ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.footerlinks{
+    border-right: 1px solid #F1D0C2;
+}
+.footerlinks p{
+    font-size: 22px;
+}
+.copyright ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.copyright p{
+    font-size: 20px;
+}
+.copyright .official{
+    font-weight: 800 !important;
+}
+.growth{
+    background-color: #D8E6B3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.cardsheading h1{
+    font-size: 80px;
+}
+.cardsheading span{
+    color: var(--primary-color);
+}
+.marketcard{
+    min-height: 500px;
+    border-color: var(--primary-color);
+}
+.resourcecard{
+    min-height: 550px;
+    border-color: var(--primary-color);
+}
+.resourcecard ul li{
+    font-size: 18px !important;
+}
+.bestvalue{
+    margin-top: -60px !important;
+}
+.workshop ul li{
+    background-color: white;
+    font-weight: 700;
+    border: 2px solid #FBE3D7;
+    list-style-type: none;
+    font-size: 18px;
+}
+.workshop h1{
+    font-size: 56px;
+}
+.tremendous{
+    font-size: 54px;
+}
+.bgpink{
+    background-color: #FEF9F7;
+    
+}
+
+
+.tremendous-outer{
+  
+    background: linear-gradient(to bottom,#FEF9F7, #ffffff);
+    
+}
+.pinkborder{
+    border-color: #FBE3D7;
+}
+.greysection .greybtn{
+    background-color: white;
+    color: black;
+    padding: 15px 40px;
+    border-radius: 0;
+    border: none;
+    font-size: 20px;
+}
+.greysection .greybtn:hover{
+    background-color: black;
+    color: white;
+ 
+}
+.anthony h5{
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 20px;
+}
+.anthony h1{
+   
+    font-size: 60px;
+    min-height: 250px;
+}
+.anthony-heading h3{
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+.anthony-heading h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.anthony p{
+    font-size: 18px;
+}
+.recapheading h1{
+        font-size: 60px;
+}
+.border-topbottom{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.icon-right{
+    border-right: 1px solid grey;
+}
+.icon-left{
+    border-left: 1px solid grey;
+}
+.recaptext p{
+ 
+    padding-top: 10px;
+    /* font-size: 22px; */
+}
+.capital h1{
+    font-size: 80px;
+    color: white;
+}
+.greysection{
+    background-color: #343434;
+}
+.featured h1{
+    font-size: 56px;
+}
+.featuredheading h1{
+    font-size: 70px;
+}
+.gained h1{
+    font-size: 70px;
+}
+.gainedouter{
+    background-image: url(./assets/linebg.png);
+    background-size: cover;
+}
+.gainedinner{
+    background-image: url(./assets/lines.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.recourcetitle{
+    min-height: 150px;
+}
+.slick-next:before{
+    content: url(./assets/arrow-forward.svg) !important;
+}
+
+.slick-prev:after{
+    content: url(./assets/arrow-back.svg) !important;
+}
+.slick-prev:before{
+    display: none !important;
+}
+.slick-next{
+    right: -30px !important;
+}
+.slick-prev {
+    left: -30px;
+}
+
+.figure-heading h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 200;
+}
+.platforn h3{
+    font-size: 40px;
+}
+.hundred p{
+    font-size: 30px !important;
+}
+.platforn .pricing{
+    min-height: 800px;
+}
+.mandy-bg{
+    background-image: url(./assets/mandybg.png);
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    .topbar{
+        font-size: 12px !important;
+      }
+      .hundred p{
+        font-size: 18px !important;
+    }
+    .platforn .pricing{
+        min-height: auto;
+    }
+      .join{
+ 
+        width: 120px;
+    }
+    .topbar span::after{
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 4rem;
+    }
+    .slick-prev, .slick-next{
+      
+       top: 0% !important;
+    }
+    .slick-next{
+        right: 15px !important;
+    }
+    .slick-prev {
+        left: 15px;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .ceo small{
+        font-size: 14px;
+    }
+    .hundred small{
+        font-size: 14px;
+    }
+    
+    .membership-hero{
+        font-size: 10px;
+    }
+    .seen {
+        text-align: center;
+        max-width: 300px;
+        position: relative;
+        margin: auto;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-size: 12px;
+      }
+      
+      .seen:before {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 2px;
+        background: #ccc;
+        left: 0;
+        top: 50%;
+        position: absolute;
+        
+      }
+      
+      .seen:after {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 2px;
+        background: #ccc;
+        right: 0;
+        top: 50%;
+        position: absolute;
+      }
+    .scriptside h2{
+        font-size: 36px;
+    }
+    .scriptside p{
+        font-size: 16px;
+    }
+    .orangetext h1{
+        font-size: 40px;
+        color: white;
+      }
+      .quote h1{
+        font-size: 30px;
+    }
+    .accordion-button{
+        font-size: 16px;
+    }
+      
+    .accordion-body{
+        font-size: 16px;
+    }
+    .resourcecard{
+        min-height: auto;
+
+    }
+    .cardsheading h1{
+        font-size: 40px;
+    }
+    .marketcard{
+        min-height: auto;
+
+    }
+    .bestvalue{
+        margin-top: 0 !important;
+    }
+    .workshop h1{
+        font-size: 40px;
+    }
+    .tremendous{
+        font-size: 26px;
+    }
+    .anthony h1{
+        min-height: auto;
+    }
+    .anthony-heading h3{
+        font-size: 26px;
+        color: var(--primary-color);
+        font-weight: 800;
+    }
+    .anthony-heading h1{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .recapheading h1{
+        font-size: 30px;
+}
+.recaplower h1{
+    font-size: 40px;
+}
+.capital h1{
+    font-size: 40px;
+    color: white;
+}
+.featured h1{
+    font-size: 30px;
+}
+.gained h1{
+    font-size: 30px;
+}
+.anthony{
+    border-right: none !important;
+}
+.featuredheading h1 {
+    font-size: 40px;
+}
+.orangetable{
+    width: 1080px;
+}
+.oragetable-outer{
+    overflow-x: auto;
+    padding: 20px 0;
+}
+.mainheading{
+    font-size: 30px !important;
+  }
+  .social{
+    font-size: 2rem;
+}
+}
+@media only screen and (max-width: 425px) {
+    .workshop h1 {
+        font-size: 25px;
+    }
+
+
+}
+
+
+
+
+/* margin display */
+.line-425{
+    display: none;
+}
+
+@media (max-width: 425px) {
+    .line-425{
+        display: block;
+    }
+
+  }
+  
